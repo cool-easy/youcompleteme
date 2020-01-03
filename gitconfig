@@ -1,0 +1,7 @@
+merge.conflictstype=diff3                  //差量用diff3显示
+diff.tool=vimdiff
+difftool.prompt=false
+alias.d=difftool
+color.ui=true
+i18n.commitencoding=utf-8                  //提交历史用utf-8  需要设置环境变量export LESSCHARSET=utf-8
+i18n.logoutputencoding=utf-8               //历史日志输出用utf-8 输入commit乱码还要设置vimenconding编码utf-8
